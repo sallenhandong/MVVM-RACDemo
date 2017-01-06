@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  basicFramework
+//
+//  Created by jefactoria on 17/1/3.
+//  Copyright © 2017年 xiexing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "VendorMarco.h"
+#import "UtilsMacro.h"
+
+#import "GAViewManager.h"
+#define urlHead [NSString stringWithFormat:@"http://139.129.8.95:8008/API/"]
+
+
+#endif /* PrefixHeader_pch */
