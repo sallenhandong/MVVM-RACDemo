@@ -36,6 +36,16 @@
             }];
             [alert showLXAlertView];
             
+        }else if (index.row == 3){
+        
+            if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
+                [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"kvo"}];
+            }
+        }else if (index.row == 4){
+            
+            if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
+                [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"combine"}];
+            }
         }
      
     }];
@@ -43,8 +53,10 @@
  
     self.frame = CGRectMake(0, 200, SCREEN_WIDTH, SCREEN_HEIGHT - 200);
     self.titleArray = @[@"push viewController(viewManger)",
-                        @"push viewController(RAC)",
-                        @"rac_signalForSelector: (show alert)"
+                        @"rac_textfield and Raccommand(RAC)",
+                        @"rac_signalForSelector: (TableviewDelegate)",
+                        @"rac_valuesAndChangesForKeyPath(KVO)",
+                        @"rac_signal combineLatest"
                         ];
 
     self.tableView.bouncesZoom = NO;
@@ -72,7 +84,7 @@
     if (indexPath.row == 0) {
         
         if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
-            [self.viewDelegate sa_view:self withEvents:@{@"push":@"你好很高兴认识你"}];
+            [self.viewDelegate sa_view:self withEvents:@{@"push":@"push"}];
         }
         
     }else if (indexPath.row == 1){

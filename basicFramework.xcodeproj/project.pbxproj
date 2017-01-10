@@ -107,6 +107,8 @@
 		98E4858B1E164D3B0012BD91 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E4858A1E164D3B0012BD91 /* Utility.m */; };
 		98E4858E1E164D5E0012BD91 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E4858D1E164D5E0012BD91 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		98E485921E164E1C0012BD91 /* GAViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E485911E164E1C0012BD91 /* GAViewManager.m */; };
+		98EC7C791E24C50200CC321D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C781E24C50200CC321D /* ThirdViewController.m */; };
+		98EC7C7C1E24C63000CC321D /* RacWithKvoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -334,6 +336,10 @@
 		98E4858D1E164D5E0012BD91 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		98E485901E164E1C0012BD91 /* GAViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAViewManager.h; sourceTree = "<group>"; };
 		98E485911E164E1C0012BD91 /* GAViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAViewManager.m; sourceTree = "<group>"; };
+		98EC7C771E24C50200CC321D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		98EC7C781E24C50200CC321D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		98EC7C7A1E24C63000CC321D /* RacWithKvoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacWithKvoView.h; sourceTree = "<group>"; };
+		98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacWithKvoView.m; sourceTree = "<group>"; };
 		FA35D9A0D7F687D4D5E5EE81 /* Pods-basicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicFramework/Pods-basicFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -715,6 +721,7 @@
 		98E4849C1E164B7B0012BD91 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7C711E24C4B000CC321D /* Third */,
 				981CAE651E1F66600088AE0C /* Second */,
 				98597D2B1E1B935B00F415D9 /* First */,
 			);
@@ -953,6 +960,49 @@
 			name = ViewManager;
 			sourceTree = "<group>";
 		};
+		98EC7C711E24C4B000CC321D /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7C751E24C4D900CC321D /* ViewModel */,
+				98EC7C741E24C4CF00CC321D /* Model */,
+				98EC7C731E24C4C800CC321D /* ViewController */,
+				98EC7C721E24C4C400CC321D /* View */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		98EC7C721E24C4C400CC321D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7C7A1E24C63000CC321D /* RacWithKvoView.h */,
+				98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		98EC7C731E24C4C800CC321D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7C771E24C50200CC321D /* ThirdViewController.h */,
+				98EC7C781E24C50200CC321D /* ThirdViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		98EC7C741E24C4CF00CC321D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		98EC7C751E24C4D900CC321D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		DA02A67C78040BFF5F3DF4A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1162,10 +1212,12 @@
 				98E485661E164CC60012BD91 /* UIView+WebCacheOperation.m in Sources */,
 				981CAE351E1E3A3B0088AE0C /* HomeTableView.m in Sources */,
 				98E485801E164CCB0012BD91 /* TAAnimatedDotView.m in Sources */,
+				98EC7C7C1E24C63000CC321D /* RacWithKvoView.m in Sources */,
 				98E4857F1E164CCB0012BD91 /* TAAbstractDotView.m in Sources */,
 				98597CC21E1B554700F415D9 /* RootTableViewController.m in Sources */,
 				98E4852D1E164C7C0012BD91 /* MJProperty.m in Sources */,
 				98E485261E164C7C0012BD91 /* DCURLRouter.m in Sources */,
+				98EC7C791E24C50200CC321D /* ThirdViewController.m in Sources */,
 				98E485851E164CCB0012BD91 /* UIView+SDExtension.m in Sources */,
 				98E485251E164C7C0012BD91 /* DCURLNavgation.m in Sources */,
 				981CAE171E1E1C9C0088AE0C /* UIImageView+Addition.m in Sources */,

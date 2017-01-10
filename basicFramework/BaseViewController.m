@@ -20,6 +20,7 @@
     [self bindViewModel];
     [self layoutNavigation];
     [self getNewData];
+    
 }
 
 #pragma mark - RAC

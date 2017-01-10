@@ -12,6 +12,8 @@
 #import "UtilsMacro.h"
 
 #import "GAViewManager.h"
+#import "RootView.h"
+#import "BaseViewController.h"
 #define urlHead [NSString stringWithFormat:@"http://139.129.8.95:8008/API/"]
 
 
