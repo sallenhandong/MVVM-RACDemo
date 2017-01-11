@@ -109,6 +109,8 @@
 		98E485921E164E1C0012BD91 /* GAViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E485911E164E1C0012BD91 /* GAViewManager.m */; };
 		98EC7C791E24C50200CC321D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C781E24C50200CC321D /* ThirdViewController.m */; };
 		98EC7C7C1E24C63000CC321D /* RacWithKvoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */; };
+		98EC7D511E2615E600CC321D /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D501E2615E600CC321D /* HomeTableViewCell.m */; };
+		98EC7D541E2626C100CC321D /* xcodeproj.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EC7D531E2626C100CC321D /* xcodeproj.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -340,6 +342,9 @@
 		98EC7C781E24C50200CC321D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		98EC7C7A1E24C63000CC321D /* RacWithKvoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacWithKvoView.h; sourceTree = "<group>"; };
 		98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacWithKvoView.m; sourceTree = "<group>"; };
+		98EC7D4F1E2615E600CC321D /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		98EC7D501E2615E600CC321D /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		98EC7D531E2626C100CC321D /* xcodeproj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeproj.png; sourceTree = "<group>"; };
 		FA35D9A0D7F687D4D5E5EE81 /* Pods-basicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicFramework/Pods-basicFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -450,6 +455,7 @@
 		981CAE241E1E254B0088AE0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D531E2626C100CC321D /* xcodeproj.png */,
 				981CAE731E1F68700088AE0C /* 登录按钮.png */,
 				981CAE741E1F68700088AE0C /* 登录白背景.png */,
 				981CAE751E1F68700088AE0C /* 登录背景.jpg */,
@@ -568,6 +574,8 @@
 				98597CBB1E1B52A800F415D9 /* HomeView.m */,
 				981CAE331E1E3A3B0088AE0C /* HomeTableView.h */,
 				981CAE341E1E3A3B0088AE0C /* HomeTableView.m */,
+				98EC7D4F1E2615E600CC321D /* HomeTableViewCell.h */,
+				98EC7D501E2615E600CC321D /* HomeTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1124,6 +1132,7 @@
 				981CAE641E1F64BB0088AE0C /* music.jpg in Resources */,
 				981CAE851E1F68700088AE0C /* login_btn_1.9.png in Resources */,
 				981CAE811E1F68700088AE0C /* 登录分割线.png in Resources */,
+				98EC7D541E2626C100CC321D /* xcodeproj.png in Resources */,
 				981CAE841E1F68700088AE0C /* 注册按钮.png in Resources */,
 				98E484751E1638DD0012BD91 /* LaunchScreen.storyboard in Resources */,
 				981CAE881E1F68700088AE0C /* u8.png in Resources */,
@@ -1282,6 +1291,7 @@
 				98E4846A1E1638DD0012BD91 /* AppDelegate.m in Sources */,
 				98E485571E164CC60012BD91 /* MKAnnotationView+WebCache.m in Sources */,
 				98E485831E164CCB0012BD91 /* SDCollectionViewCell.m in Sources */,
+				98EC7D511E2615E600CC321D /* HomeTableViewCell.m in Sources */,
 				98E484671E1638DD0012BD91 /* main.m in Sources */,
 				98E485921E164E1C0012BD91 /* GAViewManager.m in Sources */,
 				981CAE3B1E1E3FD80088AE0C /* UIView+JYSExtension.m in Sources */,

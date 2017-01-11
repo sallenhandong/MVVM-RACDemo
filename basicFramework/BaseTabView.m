@@ -45,7 +45,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSInteger row = self.rowArray.count;
+    NSInteger row = [self.rowArray[section] count];
     return row;
 }
 
