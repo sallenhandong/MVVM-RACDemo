@@ -625,8 +625,6 @@
 		98597D2A1E1B935600F415D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				98EC7D861E27627C00CC321D /* AspectCatModel.h */,
-				98EC7D871E27627C00CC321D /* AspectCatModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1061,6 +1059,7 @@
 		98EC7D8A1E27726000CC321D /* AOP */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D9F1E278B9E00CC321D /* Model */,
 				98EC7D8F1E27730000CC321D /* ViewController */,
 				98EC7D8E1E2772FA00CC321D /* View */,
 			);
@@ -1092,6 +1091,15 @@
 				98EC7D951E27798700CC321D /* UIColor+Hex.m */,
 			);
 			name = UIColor;
+			sourceTree = "<group>";
+		};
+		98EC7D9F1E278B9E00CC321D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D861E27627C00CC321D /* AspectCatModel.h */,
+				98EC7D871E27627C00CC321D /* AspectCatModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		DA02A67C78040BFF5F3DF4A6 /* Frameworks */ = {

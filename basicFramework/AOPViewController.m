@@ -8,7 +8,7 @@
 
 #import "AOPViewController.h"
 #import "AopView.h"
-#import "AppDelegate+Logging.h"
+#import "AspectCatModel.h"
 @interface AOPViewController ()
 
 @end
@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addChildView];
+    [self initAspect];
 }
 
 -(void)addChildView{
@@ -30,6 +31,21 @@
     [self.view addSubview:view];
 }
 
+
+/*Aspects实现类方法拦截*/
+-(void)initAspect{
+    
+    Class catMetal = objc_getMetaClass(NSStringFromClass(AspectCatModel.class).UTF8String);
+    
+    [catMetal aspect_hookSelector:@selector(classFee) withOptions:AspectPositionAfter usingBlock:^{
+        
+        NSLog(@"aspectFee");
+        
+    } error:NULL];
+    
+    [AspectCatModel classFee];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

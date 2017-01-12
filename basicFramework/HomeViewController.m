@@ -12,7 +12,6 @@
 #import "BaseRequest.h"
 #import "HomeTabViewViewModel.h"
 #import "LoginViewController.h"
-#import "AspectCatModel.h"
 @interface HomeViewController ()
 @property(nonatomic,strong)HomeTableView *mainTab;
 @property(nonatomic,strong)GAViewManager *viewManager;
@@ -43,6 +42,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self registEvent];
+    
 }
 
 -(void)addSubviews{
