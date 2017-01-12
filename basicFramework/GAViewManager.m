@@ -27,11 +27,11 @@
         }
         [DCURLRouter pushURLString:urlStr animated:YES];
        
-    }else if ([[events objectForKey:@"pushThird"] isEqualToString:@"combine"]){
+    }else if ([events objectForKey:@"pushAOP"]){
     
-    
-    
-    
+        NSString *urlStr = [NSString stringWithFormat:@"dariel://AOPViewController"];
+        [DCURLRouter pushURLString:urlStr animated:YES];
+ 
     }
 }
 

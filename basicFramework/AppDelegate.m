@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "AppDelegate+Logging.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +25,7 @@
     self.window.rootViewController = nav;
     [self.window makeKeyWindow];
     [DCURLRouter loadConfigDictFromPlist:@"DCURLRouter.plist"];
+    [self setupLogging];
     
     
     return YES;

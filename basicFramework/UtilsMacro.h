@@ -14,7 +14,7 @@
 
 //分类
 #import "UIView+JYSExtension.h"
-
+#import "UIColor+Hex.h"
 // 获取屏幕 宽度、高度 bounds就是屏幕的全部区域
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)

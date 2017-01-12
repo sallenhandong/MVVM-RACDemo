@@ -110,7 +110,14 @@
 		98EC7C791E24C50200CC321D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C781E24C50200CC321D /* ThirdViewController.m */; };
 		98EC7C7C1E24C63000CC321D /* RacWithKvoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */; };
 		98EC7D511E2615E600CC321D /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D501E2615E600CC321D /* HomeTableViewCell.m */; };
-		98EC7D541E2626C100CC321D /* xcodeproj.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EC7D531E2626C100CC321D /* xcodeproj.png */; };
+		98EC7D851E27621700CC321D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D841E27621700CC321D /* Aspects.m */; };
+		98EC7D881E27627C00CC321D /* AspectCatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D871E27627C00CC321D /* AspectCatModel.m */; };
+		98EC7D8D1E27728900CC321D /* AOPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D8C1E27728900CC321D /* AOPViewController.m */; };
+		98EC7D921E27732000CC321D /* AopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D911E27732000CC321D /* AopView.m */; };
+		98EC7D961E27798700CC321D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D951E27798700CC321D /* UIColor+Hex.m */; };
+		98EC7D991E277B9900CC321D /* AppDelegate+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D981E277B9900CC321D /* AppDelegate+Logging.m */; };
+		98EC7D9C1E277BB200CC321D /* BaseLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EC7D9B1E277BB200CC321D /* BaseLogging.m */; };
+		98EC7D9E1E27888300CC321D /* xcodeproj.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EC7D9D1E27888300CC321D /* xcodeproj.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -344,7 +351,21 @@
 		98EC7C7B1E24C63000CC321D /* RacWithKvoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacWithKvoView.m; sourceTree = "<group>"; };
 		98EC7D4F1E2615E600CC321D /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		98EC7D501E2615E600CC321D /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
-		98EC7D531E2626C100CC321D /* xcodeproj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeproj.png; sourceTree = "<group>"; };
+		98EC7D831E27621700CC321D /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		98EC7D841E27621700CC321D /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		98EC7D861E27627C00CC321D /* AspectCatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectCatModel.h; sourceTree = "<group>"; };
+		98EC7D871E27627C00CC321D /* AspectCatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectCatModel.m; sourceTree = "<group>"; };
+		98EC7D8B1E27728900CC321D /* AOPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPViewController.h; sourceTree = "<group>"; };
+		98EC7D8C1E27728900CC321D /* AOPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPViewController.m; sourceTree = "<group>"; };
+		98EC7D901E27732000CC321D /* AopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AopView.h; sourceTree = "<group>"; };
+		98EC7D911E27732000CC321D /* AopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AopView.m; sourceTree = "<group>"; };
+		98EC7D941E27798700CC321D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		98EC7D951E27798700CC321D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		98EC7D971E277B9900CC321D /* AppDelegate+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Logging.h"; sourceTree = "<group>"; };
+		98EC7D981E277B9900CC321D /* AppDelegate+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Logging.m"; sourceTree = "<group>"; };
+		98EC7D9A1E277BB200CC321D /* BaseLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLogging.h; sourceTree = "<group>"; };
+		98EC7D9B1E277BB200CC321D /* BaseLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLogging.m; sourceTree = "<group>"; };
+		98EC7D9D1E27888300CC321D /* xcodeproj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeproj.png; sourceTree = "<group>"; };
 		FA35D9A0D7F687D4D5E5EE81 /* Pods-basicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicFramework/Pods-basicFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -406,6 +427,7 @@
 		981CAE101E1E1C140088AE0C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D931E27796700CC321D /* UIColor */,
 				981CAE201E1E1DEF0088AE0C /* UIButton */,
 				981CAE1C1E1E1DAC0088AE0C /* UILabel */,
 				981CAE181E1E1CDF0088AE0C /* UIView */,
@@ -455,7 +477,7 @@
 		981CAE241E1E254B0088AE0C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				98EC7D531E2626C100CC321D /* xcodeproj.png */,
+				98EC7D9D1E27888300CC321D /* xcodeproj.png */,
 				981CAE731E1F68700088AE0C /* 登录按钮.png */,
 				981CAE741E1F68700088AE0C /* 登录白背景.png */,
 				981CAE751E1F68700088AE0C /* 登录背景.jpg */,
@@ -603,6 +625,8 @@
 		98597D2A1E1B935600F415D9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D861E27627C00CC321D /* AspectCatModel.h */,
+				98EC7D871E27627C00CC321D /* AspectCatModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -684,6 +708,7 @@
 		98E484991E164B570012BD91 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D891E276FD100CC321D /* Logging */,
 				981CAE051E1E186B0088AE0C /* Tools */,
 				98E4858F1E164DE60012BD91 /* ViewManager */,
 				98E484A31E164BCD0012BD91 /* Views */,
@@ -711,6 +736,7 @@
 		98E4849B1E164B760012BD91 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D821E27620700CC321D /* Aspects */,
 				981CAE4A1E1E43330088AE0C /* LXAlertView */,
 				981CAE3C1E1E410B0088AE0C /* SAMVVMUIKit */,
 				98E4858C1E164D5E0012BD91 /* Reachability.h */,
@@ -729,6 +755,7 @@
 		98E4849C1E164B7B0012BD91 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				98EC7D8A1E27726000CC321D /* AOP */,
 				98EC7C711E24C4B000CC321D /* Third */,
 				981CAE651E1F66600088AE0C /* Second */,
 				98597D2B1E1B935B00F415D9 /* First */,
@@ -1011,6 +1038,62 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
+		98EC7D821E27620700CC321D /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D831E27621700CC321D /* Aspects.h */,
+				98EC7D841E27621700CC321D /* Aspects.m */,
+			);
+			name = Aspects;
+			sourceTree = "<group>";
+		};
+		98EC7D891E276FD100CC321D /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D971E277B9900CC321D /* AppDelegate+Logging.h */,
+				98EC7D981E277B9900CC321D /* AppDelegate+Logging.m */,
+				98EC7D9A1E277BB200CC321D /* BaseLogging.h */,
+				98EC7D9B1E277BB200CC321D /* BaseLogging.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		98EC7D8A1E27726000CC321D /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D8F1E27730000CC321D /* ViewController */,
+				98EC7D8E1E2772FA00CC321D /* View */,
+			);
+			name = AOP;
+			sourceTree = "<group>";
+		};
+		98EC7D8E1E2772FA00CC321D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D901E27732000CC321D /* AopView.h */,
+				98EC7D911E27732000CC321D /* AopView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		98EC7D8F1E27730000CC321D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D8B1E27728900CC321D /* AOPViewController.h */,
+				98EC7D8C1E27728900CC321D /* AOPViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		98EC7D931E27796700CC321D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				98EC7D941E27798700CC321D /* UIColor+Hex.h */,
+				98EC7D951E27798700CC321D /* UIColor+Hex.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
 		DA02A67C78040BFF5F3DF4A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1132,7 +1215,7 @@
 				981CAE641E1F64BB0088AE0C /* music.jpg in Resources */,
 				981CAE851E1F68700088AE0C /* login_btn_1.9.png in Resources */,
 				981CAE811E1F68700088AE0C /* 登录分割线.png in Resources */,
-				98EC7D541E2626C100CC321D /* xcodeproj.png in Resources */,
+				98EC7D9E1E27888300CC321D /* xcodeproj.png in Resources */,
 				981CAE841E1F68700088AE0C /* 注册按钮.png in Resources */,
 				98E484751E1638DD0012BD91 /* LaunchScreen.storyboard in Resources */,
 				981CAE881E1F68700088AE0C /* u8.png in Resources */,
@@ -1249,6 +1332,7 @@
 				98E4851F1E164C7C0012BD91 /* AFHTTPSessionManager.m in Sources */,
 				981CAE4F1E1E43330088AE0C /* LXAlertView.m in Sources */,
 				981CAE0B1E1E18D90088AE0C /* NSDate+MJ.m in Sources */,
+				98EC7D9C1E277BB200CC321D /* BaseLogging.m in Sources */,
 				98E4857E1E164CCB0012BD91 /* UIView+SDAutoLayout.m in Sources */,
 				98E485621E164CC60012BD91 /* UIImage+MultiFormat.m in Sources */,
 				981CAE6C1E1F675F0088AE0C /* LoginView.m in Sources */,
@@ -1270,6 +1354,8 @@
 				98E485591E164CC60012BD91 /* SDImageCache.m in Sources */,
 				98E485221E164C7C0012BD91 /* AFURLRequestSerialization.m in Sources */,
 				98597CB61E1B523500F415D9 /* RootView.m in Sources */,
+				98EC7D961E27798700CC321D /* UIColor+Hex.m in Sources */,
+				98EC7D991E277B9900CC321D /* AppDelegate+Logging.m in Sources */,
 				98E4855E1E164CC60012BD91 /* SDWebImageManager.m in Sources */,
 				98E485631E164CC60012BD91 /* UIImage+WebP.m in Sources */,
 				981CAE721E1F68590088AE0C /* LoginViewModel.m in Sources */,
@@ -1281,12 +1367,14 @@
 				98E485301E164C7C0012BD91 /* NSObject+MJClass.m in Sources */,
 				98E4858B1E164D3B0012BD91 /* Utility.m in Sources */,
 				981CAE471E1E410B0088AE0C /* UITableViewCell+SAConfigure.m in Sources */,
+				98EC7D881E27627C00CC321D /* AspectCatModel.m in Sources */,
 				98597CBC1E1B52A800F415D9 /* HomeView.m in Sources */,
 				98E4852B1E164C7C0012BD91 /* MJExtensionConst.m in Sources */,
 				981CAE161E1E1C9C0088AE0C /* UIImage+Addition.m in Sources */,
 				981CAE531E1E4B820088AE0C /* HomeTabViewViewModel.m in Sources */,
 				98E485331E164C7C0012BD91 /* NSObject+MJProperty.m in Sources */,
 				98E485651E164CC60012BD91 /* UIImageView+WebCache.m in Sources */,
+				98EC7D921E27732000CC321D /* AopView.m in Sources */,
 				98E4855C1E164CC60012BD91 /* SDWebImageDownloader.m in Sources */,
 				98E4846A1E1638DD0012BD91 /* AppDelegate.m in Sources */,
 				98E485571E164CC60012BD91 /* MKAnnotationView+WebCache.m in Sources */,
@@ -1295,8 +1383,10 @@
 				98E484671E1638DD0012BD91 /* main.m in Sources */,
 				98E485921E164E1C0012BD91 /* GAViewManager.m in Sources */,
 				981CAE3B1E1E3FD80088AE0C /* UIView+JYSExtension.m in Sources */,
+				98EC7D8D1E27728900CC321D /* AOPViewController.m in Sources */,
 				98597D0B1E1B817600F415D9 /* BaseRequest.m in Sources */,
 				98E4855B1E164CC60012BD91 /* SDWebImageDecoder.m in Sources */,
+				98EC7D851E27621700CC321D /* Aspects.m in Sources */,
 				98E4855A1E164CC60012BD91 /* SDWebImageCompat.m in Sources */,
 				98E485641E164CC60012BD91 /* UIImageView+HighlightedWebCache.m in Sources */,
 				98E485581E164CC60012BD91 /* NSData+ImageContentType.m in Sources */,

@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 #import "RootViewProtocol.h"
-@interface RootView : UIView<RootViewProtocol>
+@interface RootView : UIView<RootViewProtocol,SAViewProtocol>
 @end

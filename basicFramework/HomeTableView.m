@@ -70,7 +70,7 @@
     }];
     
  
-    self.frame = CGRectMake(0, 200, SCREEN_WIDTH, SCREEN_HEIGHT - 200);
+    self.frame = CGRectMake(0, 250, SCREEN_WIDTH, SCREEN_HEIGHT - 250);
     self.commonMethodArray = @[@"push viewController(viewManger)",
                                @"rac_textfield and Raccommand(RAC)",
                                @"rac_signalForSelector: (TableviewDelegate)",
@@ -135,14 +135,15 @@
 {
     
     UIView *view = [[UIView alloc]init];
-    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(20, 0, 80, 20)];
+    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(20, 0, 130, 20)];
     title.textColor = blue_color;
+    title.backgroundColor = yellow_color;
     [view addSubview:title];
     if (section == 0) {
-        title.text = @"常用方法";
+        title.text = @"RAC--常用方法";
         return view;
     }else{
-        title.text = @"操作方法";
+        title.text = @"RAC--操作方法";
         return view;
         
     }

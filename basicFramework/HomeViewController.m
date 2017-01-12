@@ -12,6 +12,7 @@
 #import "BaseRequest.h"
 #import "HomeTabViewViewModel.h"
 #import "LoginViewController.h"
+#import "AspectCatModel.h"
 @interface HomeViewController ()
 @property(nonatomic,strong)HomeTableView *mainTab;
 @property(nonatomic,strong)GAViewManager *viewManager;
@@ -41,14 +42,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self registEvent];
-    
 }
 
 -(void)addSubviews{
     
-   self.homeTopView = [[HomeView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 150)];
+   self.homeTopView = [[HomeView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
     [self.view addSubview:self.homeTopView];
     
 
@@ -61,6 +60,7 @@
 -(void)registEvent{
 
     [self.mainTab sa_viewWithViewManger:self.viewManager];
+    [self.homeTopView sa_viewWithViewManger:self.viewManager];
 
 }
 
@@ -72,13 +72,10 @@
         @strongify(self);
         LoginViewController *loginVC = [[LoginViewController alloc]init];
         [self.navigationController pushViewController:loginVC animated:YES];
-        
-        
+       
     }];
-    
-
+ 
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
