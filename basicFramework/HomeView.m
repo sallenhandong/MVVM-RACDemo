@@ -33,12 +33,13 @@
     self.changeImageButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.changeImageButton setTitle:@"点击改变头像" forState:UIControlStateNormal];
     [self.changeImageButton setTitleColor:purple_color forState:UIControlStateNormal];
+    [self.changeImageButton setBackgroundColor:[UIColor colorWithHexString:@"3182D9"]];
     [self addSubview:self.changeImageButton];
     
     self.pushvcButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.pushvcButton setTitle:@"Aspects ----AOPDemo" forState:UIControlStateNormal];
+    [self.pushvcButton setTitle:@"Aspects-AOP" forState:UIControlStateNormal];
     [self.pushvcButton setTitleColor:purple_color forState:UIControlStateNormal];
-    [self.pushvcButton setBackgroundColor:yellow_color];
+    [self.pushvcButton setBackgroundColor:[UIColor colorWithHexString:@"C93F45"]];
     [self addSubview:self.pushvcButton];
     [self pushAopVC];
     [self changeImage];
@@ -49,10 +50,10 @@
 -(void)updateConstraints{
     
     CGSize size = [self.titleLabel.text sizeWithAttributes:@{ NSFontAttributeName: self.titleLabel.font }];
-    self.titleLabel.sd_layout.topSpaceToView(self,20).heightIs(size.height).widthIs(size.width).centerXEqualToView(self);
-    self.headImage.sd_layout.topSpaceToView(self.titleLabel,10).heightIs(110).widthIs(110).centerXEqualToView(self);
-    self.changeImageButton.sd_layout.leftSpaceToView(self,10).topSpaceToView(self,100).widthIs(120).heightIs(30);
-    self.pushvcButton.sd_layout.leftSpaceToView(self,15).topSpaceToView(self,180).widthIs(200).heightIs(30);
+    self.titleLabel.sd_layout.topSpaceToView(self,30).heightIs(size.height).widthIs(size.width).centerXEqualToView(self);
+    self.headImage.sd_layout.topSpaceToView(self,64).heightIs(150).widthIs(200).centerXEqualToView(self);
+    self.changeImageButton.sd_layout.leftSpaceToView(self,10).topSpaceToView(self,230).widthIs(SCREEN_WIDTH/2 - 10).heightIs(50);
+    self.pushvcButton.sd_layout.leftSpaceToView(self.changeImageButton,0).topSpaceToView(self,230).widthIs(SCREEN_WIDTH/2 - 10).heightIs(50);
     [super updateConstraints];
 }
 

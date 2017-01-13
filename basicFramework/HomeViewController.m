@@ -47,7 +47,7 @@
 
 -(void)addSubviews{
     
-   self.homeTopView = [[HomeView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
+   self.homeTopView = [[HomeView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 300)];
     [self.view addSubview:self.homeTopView];
     
 

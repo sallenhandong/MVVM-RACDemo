@@ -70,14 +70,14 @@
     }];
     
  
-    self.frame = CGRectMake(0, 250, SCREEN_WIDTH, SCREEN_HEIGHT - 250);
+    self.frame = CGRectMake(0, 300, SCREEN_WIDTH, SCREEN_HEIGHT - 300);
     self.commonMethodArray = @[@"push viewController(viewManger)",
                                @"rac_textfield and Raccommand(RAC)",
                                @"rac_signalForSelector: (TableviewDelegate)",
                                @"rac_valuesAndChangesForKeyPath(KVO)",
                                @"rac_signal combineLatest"
                                ];
-    self.operateMethodArray = @[@"flattenMap map 用于把源信号内容映射成新的内容。",
+    self.operateMethodArray = @[@"flattenMap 根据前一个信号的参数创建一个新的信号！",
                                 @"concat 组合 按一定顺序拼接信号，当多个信号发出的时候，有顺序的接收信号",
                                 @"then 用于连接两个信号，当第一个信号完成，才会连接then返回的信号。",
                                 @"merge 把多个信号合并为一个信号，任何一个信号有新值的时候就会调用",
@@ -135,20 +135,23 @@
 {
     
     UIView *view = [[UIView alloc]init];
-    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(20, 0, 130, 20)];
+    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(20, 0, 130, 40)];
     title.textColor = blue_color;
-    title.backgroundColor = yellow_color;
+   ;
     [view addSubview:title];
     if (section == 0) {
         title.text = @"RAC--常用方法";
+        title.backgroundColor = [UIColor colorWithHexString:@"3182D9" alpha:0.6];
         return view;
     }else{
         title.text = @"RAC--操作方法";
+        title.backgroundColor = [UIColor colorWithHexString:@"C93F45" alpha:0.6];
         return view;
         
     }
     return nil;
 }
+
 //-(CGFloat)rootTableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 //
 //
