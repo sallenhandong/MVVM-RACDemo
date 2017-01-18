@@ -30,10 +30,10 @@
     }
     return self;
 }
-
+/**绑定*/
 - (void)bindViewModel {
 }
-
+/**添加视图*/
 - (void)setupViews {
 }
 

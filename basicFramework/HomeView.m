@@ -79,8 +79,8 @@
     
     [[self.pushvcButton rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {
         
-        if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
-            [self.viewDelegate sa_view:self withEvents:@{@"pushAOP":@""}];
+        if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:url:)]) {
+            [self.viewDelegate sa_view:self withEvents:nil url:AopViewControllerUrl];
         }
         
     }];

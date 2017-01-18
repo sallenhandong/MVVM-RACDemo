@@ -16,8 +16,9 @@
  *
  *  @param view   view自己
  *  @param events 所触发事件的一些描述信息
+ *  @param url    跳转页面的url地址
  */
-- (void)sa_view:(__kindof UIView *)view withEvents:(NSDictionary *)events;
+- (void)sa_view:(__kindof UIView *)view withEvents:(NSDictionary *)events url:(NSString *)url;
 
 
 @end

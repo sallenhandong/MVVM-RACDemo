@@ -17,7 +17,7 @@
     }
     return self;
 }
-
+/**添加视图*/
 -(void)addChildView
 {
     

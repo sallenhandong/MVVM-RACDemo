@@ -13,5 +13,6 @@
 @optional
 
 -(instancetype)initWithFrame:(CGRect)frame;
+/**添加视图*/
 -(void)addChildView;
 @end

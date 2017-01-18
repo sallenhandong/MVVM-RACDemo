@@ -34,8 +34,8 @@
         if (index.section == 0) {
             if (index.row == 0) {
                 
-                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
-                    [self.viewDelegate sa_view:self withEvents:@{@"push":@"push"}];
+                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:url:)]) {
+                    [self.viewDelegate sa_view:self withEvents:nil url:LoginViewControllerUrl];
                 }
                 
             }else if (index.row == 1){
@@ -51,13 +51,13 @@
                 
             }else if (index.row == 3){
                 
-                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
-                    [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"kvo"}];
+                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:url:)]) {
+                    [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"kvo"} url:ThirdViewControllerUrl];
                 }
             }else if (index.row == 4){
                 
-                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:)]) {
-                    [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"combine"}];
+                if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(sa_view:withEvents:url:)]) {
+                    [self.viewDelegate sa_view:self withEvents:@{@"pushThird":@"combine"} url:ThirdViewControllerUrl];
                 }
             }
             

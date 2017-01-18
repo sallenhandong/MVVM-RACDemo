@@ -10,28 +10,24 @@
 
 @implementation GAViewManager
 
--(void)sa_view:(__kindof UIView *)view withEvents:(NSDictionary *)events{
+-(void)sa_view:(__kindof UIView *)view withEvents:(NSDictionary *)events url:(NSString *)url{
 
-    if ([[events objectForKey:@"push"] isEqualToString:@"push"]) {
-       NSString *urlStr = [NSString stringWithFormat:@"dariel://LoginViewController"];
-        [DCURLRouter pushURLString:urlStr animated:YES];
-    }else if ([events objectForKey:@"pushThird"]){
-    
+    if ([events objectForKey:@"pushThird"]){
+        
         NSString *urlStr = @"";
         if ([[events objectForKey:@"pushThird"] isEqualToString:@"kvo"]) {
             
-          urlStr = [NSString stringWithFormat:@"dariel://ThirdViewController?title=点击"];
+            urlStr = [NSString stringWithFormat:@"%@?title=点击",url];
         }else{
-        
-          urlStr = [NSString stringWithFormat:@"dariel://ThirdViewController?title=合并"];
+            
+            urlStr = [NSString stringWithFormat:@"%@?title=合并",url];
         }
         [DCURLRouter pushURLString:urlStr animated:YES];
-       
-    }else if ([events objectForKey:@"pushAOP"]){
-    
-        NSString *urlStr = [NSString stringWithFormat:@"dariel://AOPViewController"];
-        [DCURLRouter pushURLString:urlStr animated:YES];
- 
+        
+    }else{
+        
+        [DCURLRouter pushURLString:url animated:YES];
+        
     }
 }
 

@@ -11,7 +11,7 @@
 #import "VendorMarco.h"
 #import "UtilsMacro.h"
 #import "AppMacro.h"
-
+#import "PageMacro.h"
 #import "GAViewManager.h"
 #import "RootView.h"
 #import "BaseViewController.h"

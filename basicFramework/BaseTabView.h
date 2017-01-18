@@ -10,8 +10,11 @@
 #import "BaseViewProtocol.h"
 @interface BaseTabView : UIView<BaseViewProtocol>
 @property(nonatomic, strong)UITableView *tableView;
+/**表格行数数组*/
 @property(nonatomic, strong)NSMutableArray *rowArray;
+/**表格有多少区*/
 @property(nonatomic, assign)NSInteger sectionSum;
+/**row的高度*/
 @property(nonatomic, strong)NSMutableArray *rowHeigthArray;
 @property(nonatomic, assign)NSInteger tableViewStyle;
 @property(nonatomic, assign)CGRect tabFrame;
