@@ -10,7 +10,7 @@
  *  本类放app相关的宏定义
  */
 //内网
-#define REQUEST_URL @"https://www.baidu.com"
+#define urlHead @"https://www.baidu.com"
 
 // 正式
 
