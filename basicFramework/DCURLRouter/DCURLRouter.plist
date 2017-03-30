@@ -8,6 +8,8 @@
 	<string>WebViewController</string>
 	<key>dariel</key>
 	<dict>
+		<key>dariel://ReactiveCocoaViewController</key>
+		<string>ReactiveCocoaViewController</string>
 		<key>dariel://AOPViewController</key>
 		<string>AOPViewController</string>
 		<key>dariel://ThirdViewController</key>

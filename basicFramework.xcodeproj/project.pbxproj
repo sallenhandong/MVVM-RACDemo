@@ -43,6 +43,7 @@
 		981CAE861E1F68700088AE0C /* login_btn_2.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 981CAE7B1E1F68700088AE0C /* login_btn_2.9.png */; };
 		981CAE871E1F68700088AE0C /* u4.png in Resources */ = {isa = PBXBuildFile; fileRef = 981CAE7C1E1F68700088AE0C /* u4.png */; };
 		981CAE881E1F68700088AE0C /* u8.png in Resources */ = {isa = PBXBuildFile; fileRef = 981CAE7D1E1F68700088AE0C /* u8.png */; };
+		9854E7241E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854E7231E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m */; };
 		98597CAB1E1B4DF600F415D9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98597CAA1E1B4DF600F415D9 /* BaseViewController.m */; };
 		98597CB61E1B523500F415D9 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98597CB51E1B523500F415D9 /* RootView.m */; };
 		98597CB91E1B529500F415D9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98597CB81E1B529500F415D9 /* HomeViewController.m */; };
@@ -205,6 +206,8 @@
 		981CAE7C1E1F68700088AE0C /* u4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u4.png; sourceTree = "<group>"; };
 		981CAE7D1E1F68700088AE0C /* u8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u8.png; sourceTree = "<group>"; };
 		9847C4E91E1BB40800D5E1B5 /* BaseViewControllerPotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControllerPotocol.h; sourceTree = "<group>"; };
+		9854E7221E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		9854E7231E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
 		98597CA91E1B4DF600F415D9 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		98597CAA1E1B4DF600F415D9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		98597CAF1E1B4E5700F415D9 /* APIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIMacro.h; sourceTree = "<group>"; };
@@ -939,6 +942,8 @@
 				98EC7E301E2F3A6A00CC321D /* Third */,
 				98EC7E2F1E2F3A6800CC321D /* Second */,
 				98EC7E2E1E2F3A6500CC321D /* First */,
+				9854E7221E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.h */,
+				9854E7231E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -1284,6 +1289,7 @@
 				981CAE591E1F3E3F0088AE0C /* BaseView.m in Sources */,
 				98E485231E164C7C0012BD91 /* AFURLResponseSerialization.m in Sources */,
 				98E485591E164CC60012BD91 /* SDImageCache.m in Sources */,
+				9854E7241E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m in Sources */,
 				98E485221E164C7C0012BD91 /* AFURLRequestSerialization.m in Sources */,
 				98597CB61E1B523500F415D9 /* RootView.m in Sources */,
 				98EC7D961E27798700CC321D /* UIColor+Hex.m in Sources */,

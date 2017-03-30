@@ -12,4 +12,5 @@
 #define LoginViewControllerUrl @"dariel://LoginViewController"
 #define ThirdViewControllerUrl @"dariel://ThirdViewController"
 #define AopViewControllerUrl @"dariel://AOPViewController"
+#define ReactiveCocoaViewControllerUrl @"dariel://ReactiveCocoaViewController"
 #endif /* PageMacro_h */

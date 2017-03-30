@@ -70,7 +70,7 @@
     }];
     
  
-    self.frame = CGRectMake(0, 300, SCREEN_WIDTH, SCREEN_HEIGHT - 300);
+    self.frame = CGRectMake(0, 100, SCREEN_WIDTH, SCREEN_HEIGHT - 100);
     self.commonMethodArray = @[@"push viewController(viewManger)",
                                @"rac_textfield and Raccommand(RAC)",
                                @"rac_signalForSelector: (TableviewDelegate)",
