@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "HomeView.h"
 #import "BaseRequest.h"
+#import "AOPViewController.h"
 
 @interface HomeViewController ()
 
@@ -29,12 +30,13 @@
 -(void)viewWillAppear:(BOOL)animated{
 
     self.navigationController.navigationBar.hidden = YES;
-
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self registEvent];
+    
     
 }
 

@@ -34,13 +34,27 @@
     
     [self registEvent];
     
-    
+
 }
 -(void)addSubviews{
     
     self.mainTab = [[HomeTableView alloc]initWithViewModel:self.viewModel];
     [self.view addSubview:self.mainTab];
+    
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(20, 30, 50, 50);
+    [backBtn setTitle:@"返回" forState:UIControlStateNormal];
+    [backBtn setTitleColor:red_color forState:UIControlStateNormal];
+    [backBtn addTarget:self action:@selector(actionWithBack) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBtn];
 }
+-(void)actionWithBack{
+
+    [self.navigationController popViewControllerAnimated:YES];
+
+}
+
 -(void)bindViewModel{
     
     @weakify(self);

@@ -20,4 +20,5 @@
         showLoading:(bool) showLoading
         showMessage:(NSString *) message;
 
+
 @end

@@ -29,6 +29,8 @@
  */
 - (void)produceHTTPSign:(NSString *)token{
     
+    
+    
 //根据需求设置
 }
 - (void)postRequest:(NSString *)url

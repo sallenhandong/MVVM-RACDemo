@@ -28,6 +28,23 @@
         
         [DCURLRouter pushURLString:url animated:YES];
         
+        
+        // 拿到当前控制器
+        UIViewController *currentController = [DCURLRouter sharedDCURLRouter].currentViewController;
+        
+        UIViewController *aop = [[[currentController class]alloc]init];
+
+//        currentController.NextViewControllerBlock = ^(NSString *tfText){
+//        
+//        
+//            
+//            
+//            
+//        
+//        }
+        
+//        NSLog(@"%@",[currentController class]);
+        
     }
 }
 

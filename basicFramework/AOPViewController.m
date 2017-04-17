@@ -22,8 +22,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addChildView];
+//    [self addChildView];
     [self initAspect];
+    
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(20, 100, 50, 50);
+    [button setTitle:@"返回" forState:UIControlStateNormal];
+    [button setBackgroundColor:[UIColor blueColor]];
+    [button addTarget:self action:@selector(popToHomeVc) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    
+}
+
+-(void)popToHomeVc{
+    
+    [DCURLRouter popViewControllerAnimated:YES];
+
+
 }
 
 -(void)addChildView{

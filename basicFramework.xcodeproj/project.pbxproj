@@ -545,6 +545,15 @@
 			path = LXAlertView;
 			sourceTree = "<group>";
 		};
+		9854E7251E8E032800D3CEA6 /* ReativeCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				9854E7221E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.h */,
+				9854E7231E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m */,
+			);
+			name = ReativeCocoa;
+			sourceTree = "<group>";
+		};
 		98E484591E1638DC0012BD91 = {
 			isa = PBXGroup;
 			children = (
@@ -937,13 +946,12 @@
 		98EC7E2C1E2F3A4400CC321D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9854E7251E8E032800D3CEA6 /* ReativeCocoa */,
 				98EC7E351E2F3BA600CC321D /* BaseViewController */,
 				98EC7E311E2F3A6C00CC321D /* Aop */,
 				98EC7E301E2F3A6A00CC321D /* Third */,
 				98EC7E2F1E2F3A6800CC321D /* Second */,
 				98EC7E2E1E2F3A6500CC321D /* First */,
-				9854E7221E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.h */,
-				9854E7231E8D0C2C00D3CEA6 /* ReactiveCocoaViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
